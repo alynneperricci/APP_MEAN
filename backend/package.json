@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "0.0.1",
+  "description": "Primeira projeto utilizando as tecnologia do MEAN",
+  "main": "loader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alynne Perricci",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-query-int": "^2.0.0",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.12.3",
+    "mongoose-paginate": "^5.0.3",
+    "node-restful": "^0.2.6",
+    "pm2": "^2.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
